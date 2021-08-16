@@ -179,8 +179,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &465366713
-MeshCollider:
+--- !u!65 &465366713
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -189,10 +189,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &465366714
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -820,7 +819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_settings:
-    m_ResolutionMultiplier: 0
+    m_ResolutionMultiplier: 1
     m_ClipPlaneOffset: 0
     m_ReflectLayers:
       serializedVersion: 2
@@ -878,8 +877,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: -0.020025969, y: 0.34150016, z: -0.007279072, w: -0.93964016}
-  m_LocalPosition: {x: 0.5145955, y: 0.28048164, z: -3.1881433}
+  m_LocalRotation: {x: -0.4216362, y: 0.5758065, z: -0.45836264, w: -0.52969193}
+  m_LocalPosition: {x: 0.8599562, y: 0.8096073, z: -0.8315777}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1186,3 +1185,108 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 130, z: 90}
+--- !u!1001 &1721716278134625627
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1721716277680639457, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277680639457, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277680639457, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277680639457, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 465366716}
+    - target: {fileID: 1721716277680639458, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009498, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009499, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 465366716}
+    - target: {fileID: 1721716277964009573, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_Name
+      value: Rain
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716277964009573, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716278742550721, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716278742550721, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716278742550721, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 465366716}
+    - target: {fileID: 1721716278742550722, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721716279265179405, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 465366716}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c73ec2b05593480e927570404ef5143, type: 3}
